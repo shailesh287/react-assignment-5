@@ -1,0 +1,66 @@
+nav{
+    background-color: rgb(9, 64, 184);
+    padding: 16px 32px;
+    font-size: 30px;
+    display: flex;
+    align-items:stretch;
+    justify-content: space-around;
+    
+}
+
+nav a.active{
+    font-weight: bolder;
+    color: aquamarine;
+
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+.std{
+    font-size: 30px;
+    margin: 30px;
+    margin-top: 40px;
+}
+.add_btn{
+
+    border: 1px solid green;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    float: right;
+    margin: 30px 60px 30px 30px;
+    color: white;
+    background-color: green;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.add_btn:hover{
+    background-color: rgb(3, 77, 3);
+}
+
+.btn{
+    border: 1px solid black;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    float: right;
+    margin: 30px 60px 30px 30px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.submit_btn{
+    background-color: rgb(202, 71, 71);
+    color: white;
+}
+.submit_btn:hover{
+    background-color: rgb(117, 8, 8);
+}
+.back_btn{
+    background-color: rgb(111, 120, 126);
+    color: white;
+}
+.back_btn:hover{
+    background-color: rgb(26, 24, 24);
+}
